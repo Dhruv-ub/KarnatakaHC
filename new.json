@@ -1,0 +1,18 @@
+{
+    "downloaded_pdf_number": 2600,
+    "last_updated": "2025-02-27",
+    "bench": "Principal Bench",
+    "download_directory": "W:\\KhcNew\\karnataka_high_court\\2025\\february",
+    "excel_path": "W:\\KHC\\records\\karnataka_feb.xlsx",
+    "date_config": {
+        "from_date": "01/02/2025",
+        "to_date": "28/02/2025",
+        "display_from_date": "01-02-2025",
+        "display_to_date": "28-02-2025",
+        "display_month": "february"
+    },
+    "pdf_range": {
+        "start_serial": 1,
+        "end_serial": 2354
+    }
+}
