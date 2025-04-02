@@ -1,0 +1,7 @@
+[2025-04-02 12:13:58] Script starting...[2025-04-02 12:13:58] 
+[2025-04-02 12:13:58] Starting automation...[2025-04-02 12:13:58] 
+[2025-04-02 12:13:58] Setting up Chrome driver...[2025-04-02 12:13:58] 
+[2025-04-02 12:14:01] Chrome driver created successfully with default service[2025-04-02 12:14:01] 
+[2025-04-02 12:14:01] Driver setup complete, proceeding to website...[2025-04-02 12:14:01] 
+[2025-04-02 12:14:07] Website loaded[2025-04-02 12:14:07] 
+[2025-04-02 12:14:13] Selecting bench...[2025-04-02 12:14:13] 

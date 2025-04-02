@@ -36,6 +36,27 @@ model = genai.GenerativeModel(
     generation_config=generation_config,
 )
 
+
+class Logger:
+    def __init__(self, filename):
+        self.terminal = sys.stdout
+        self.log_file = open(filename, 'a', encoding='utf-8')
+        
+    def write(self, message):
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        log_message = f"[{timestamp}] {message}"
+        self.terminal.write(log_message)
+        self.log_file.write(log_message)
+        self.log_file.flush()
+        
+    def flush(self):
+        self.terminal.flush()
+        self.log_file.flush()
+
+# Redirect stdout to both terminal and log file
+log_path = "logs/test.txt"
+sys.stdout = Logger(log_path)
+
 # Constants
 CONFIG_FILE = "D:\\KarnatakaHC\\test.json"  # Updated to point to the JSON file
 WEBSITE_URL = "https://karnatakajudiciary.kar.nic.in/newwebsite/rep_judgment.php"
